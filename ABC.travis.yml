@@ -1,0 +1,10 @@
+matrix:
+  include:
+   -language:c
+   sudo : false
+   compiler:
+    - clang
+    - gcc
+    script:
+     - gcc -o Kumar Kumar.c
+     - ./Kumar
